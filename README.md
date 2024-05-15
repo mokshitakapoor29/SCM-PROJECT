@@ -21,3 +21,15 @@ Toggleable Content: Use JavaScript to create expandable sections or accordion me
 Integration with APIs: If relevant to your portfolio, integrate APIs to display data dynamically. For example, you could pull in data from a GitHub repository or a social media feed to showcase your latest projects or updates.
 Client-side Filtering and Sorting: Allow users to filter and sort your portfolio items based on categories, tags, or other criteria without reloading the page.
 Smooth Page Transitions: Implement smooth page transitions between different sections or pages of your website to create a seamless browsing experience.
+
+VERSION 3
+Dynamic Content Generation: Use Flask to dynamically generate HTML content based on user requests. For example, you can create routes to serve different pages of your website and render templates using Jinja2 templating engine.
+User Authentication: Implement user authentication and authorization using Flask's built-in tools or extensions like Flask-Login or Flask-Security. This allows you to create a login system for users to access certain parts of your website, such as a dashboard or editing interface.
+Database Integration: Connect Flask to a database (e.g., SQLite, PostgreSQL, MySQL) using an ORM (Object-Relational Mapping) library like SQLAlchemy. Store information about your projects, users, or other data in the database and retrieve it dynamically to populate your website.
+API Endpoints: Create RESTful API endpoints with Flask to allow other applications or services to interact with your website. For example, you can create endpoints to retrieve project data, submit contact form information, or perform other actions.
+Form Handling: Use Flask-WTF or other form handling libraries to process and validate user input from forms on your website. This can include contact forms, feedback forms, or forms for submitting project proposals.
+File Uploads: Implement functionality to allow users to upload files, such as images or documents, using Flask's file handling capabilities. This can be useful for users to submit portfolio items or update their profile picture.
+Session Management: Utilize Flask's session management to store user-specific information across requests. This can be used to keep track of user sessions, store temporary data, or manage authentication tokens.
+Error Handling: Implement error handling in your Flask application to gracefully handle exceptions and provide informative error messages to users when something goes wrong.
+Security: Implement security best practices such as input validation, CSRF protection, and secure password storage to protect your website from common vulnerabilities.
+Deployment: Deploy your Flask application to a web server or platform-as-a-service (PaaS) provider such as Heroku, AWS, or DigitalOcean. Configure your server environment to run your Flask application and handle incoming HTTP requests.
